@@ -1,0 +1,34 @@
+html, body{
+    height: 100vh;
+    margin: 0;
+}
+.game-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+#cookies-counter{
+    font-size: 3em;
+}
+
+.buy-btns-container{
+    margin-top: 100px;
+    /* border: 1px solid black; */
+}
+
+.buy-btn{
+    border: 1px dotted black;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.buy-btn:hover{
+    background: rgb(1, 1, 1, 0.5);
+    cursor: pointer;
+}
